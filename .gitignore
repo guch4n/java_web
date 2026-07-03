@@ -1,0 +1,63 @@
+# ==========================================
+# Java / Servlets
+# ==========================================
+*.class
+*.log
+*.ctxt
+*.mtc
+
+# Pacotes (Se houver testes ou builds locais)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs de erro da JVM (Crash)
+hs_err_pid*
+
+# ==========================================
+# Maven
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# (Opcional) Ignorar o .jar do wrapper do Maven, se usar
+# .mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# VS Code (Seu ambiente e dos alunos)
+# ==========================================
+.vscode/
+*.code-workspace
+.history/
+
+# ==========================================
+# Eclipse / IntelliJ (Caso algum aluno use)
+# ==========================================
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
